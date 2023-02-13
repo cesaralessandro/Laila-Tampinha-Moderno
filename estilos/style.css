@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --Poppins: 'Poppins', sans-serif;
+    --azul: hsl(211, 87%, 73%);
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-color: var(--azul);
+    height: 150px;
+}
+
+h1 {
+    font-family: var(--Poppins);
+    font-size: 1.8em;
+    padding-top: 50px;
+    text-align: center;
+}
+
+section#foto01 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: 2px 5px 100px rgba(0, 0, 0, 0.692);
+    display: block;
+    width: 300px;
+    height: 380px;
+    margin-top: -50px;
+    margin-bottom: 60px;
+    overflow: hidden; /*tudo o que estiver fora da borda será escondido*/
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+}
+
+section#foto02 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: 2px 5px 100px rgba(0, 0, 0, 0.692);
+    display: block;
+    width: 300px;
+    height: 380px;
+    margin-top: 440px;
+    margin-bottom: 60px;
+    overflow: hidden; /*tudo o que estiver fora da borda será escondido*/
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+}
+
+section#foto03 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: 2px 5px 100px rgba(0, 0, 0, 0.692);
+    display: block;
+    width: 300px;
+    height: 380px;
+    margin-top: 935px;
+    margin-bottom: 60px;
+    overflow: hidden; /*tudo o que estiver fora da borda será escondido*/
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+}
+
+section#foto04 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: 2px 5px 100px rgba(0, 0, 0, 0.692);
+    display: block;
+    width: 300px;
+    height: 380px;
+    margin-top: 1425px;
+    margin-bottom: 60px;
+    overflow: hidden; /*tudo o que estiver fora da borda será escondido*/
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+div#laila1 {background-image: url(../imagens/Laila-1-min.jpg);}
+div#tampinha1 {background-image: url(../imagens/Tampinha-1-min.jpg);}
+div#laila02 {background-image: url(../imagens/Laila-2-min.jpg);}
+div#tampinha02 {background-image: url(../imagens/Tampinha-2-min.jpg);}
+
+h1.imagem {
+    font-size: 1.5em;
+    padding-top: 20px;
+}
